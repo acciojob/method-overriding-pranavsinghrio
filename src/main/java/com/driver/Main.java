@@ -7,6 +7,7 @@ public class Main {
       }
   }
   public static class B extends A{
+      @Override
       public String met(){
           return "Method is overridden in Extendend class B";
       }
